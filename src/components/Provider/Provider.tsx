@@ -5,7 +5,7 @@ import { client } from '../../apollo/config'
 import { booksQueryMock } from '../../apollo/mocks'
 
 interface ProviderProps {
-    useMocks: boolean
+    useMocks?: boolean
 }
 export const Provider: React.FC<ProviderProps> = ({ useMocks, children }) => {
     if (useMocks)
