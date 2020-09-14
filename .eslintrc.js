@@ -1,7 +1,6 @@
 module.exports = {
     extends: [
         'prettier',
-        'react-app',
         'eslint:recommended',
         'plugin:react/recommended',
         'plugin:import/typescript',

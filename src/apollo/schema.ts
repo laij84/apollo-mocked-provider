@@ -1,4 +1,4 @@
-import { SchemaLink } from 'apollo-link-schema'
+import { SchemaLink } from '@apollo/client/link/schema'
 import { makeExecutableSchema } from '@graphql-tools/schema'
 
 import gql from 'graphql-tag'
